@@ -26,7 +26,7 @@ SFX C 0 /D .
 
 # Words with mandatory vowel or suffix
 # If no ashung and no vowel, a suffix is mandatory
-SFX B Y 10
+SFX B Y 14
 SFX B 0 ི/S . +i
 SFX B 0 ུ/S . +u
 SFX B 0 ེ/S . +e
@@ -35,7 +35,11 @@ SFX B 0 ི/D . +i
 SFX B 0 ུ/D . +u
 SFX B 0 ེ/D . +e
 SFX B 0 ོ/D . +o
-SFX B 0 འ/D . +ashung
+SFX B 0 འ . +ashung
+SFX B 0 འབོ . +ashung+bo
+SFX B 0 འཝ . +ashung+b
+SFX B 0 འམ . +ashung+m
+SFX B 0 འམོ . +ashung+mo
 SFX B 0 /NS .
 
 # Non-mandatory vowel or suffix. In these cases, no ashung is possible, see
@@ -64,7 +68,7 @@ SFX D 0 ན . +n
 SFX D 0 ནི . +ni
 
 # List of suffixes used by both A and B
-SFX S Y 106
+SFX S Y 103
 SFX S 0 ག . +g
 SFX S 0 གས . +gs
 SFX S 0 ང . +ng
@@ -89,6 +93,7 @@ SFX S 0 གམ . +g+m
 SFX S 0 གམོ . +g+mo
 SFX S 0 གན . +g+n
 SFX S 0 གནི . +g+ni
+SFX S 0 གསཝ . +gs+b
 SFX S 0 གསཔ . +gs+p
 SFX S 0 གསཔོ . +gs+po
 SFX S 0 གསམ . +gs+m
@@ -103,6 +108,7 @@ SFX S 0 ངམ . +ng+m
 SFX S 0 ངམོ . +ng+mo
 SFX S 0 ངན . +ng+n
 SFX S 0 ངནི . +ng+ni
+SFX S 0 ངསཝ . +ngs+b
 SFX S 0 ངསཔ . +ngs+p
 SFX S 0 ངསཔོ . +ngs+po
 SFX S 0 ངསམ . +ngs+m
@@ -110,7 +116,6 @@ SFX S 0 ངསམོ . +ngs+mo
 SFX S 0 ངསན . +ngs+n
 SFX S 0 ངསནི . +ngs
 SFX S 0 དཝ . +d+b
-SFX S 0 དབོ . +d+bo
 SFX S 0 དཔ . +d+p
 SFX S 0 དཔོ . +d+po
 SFX S 0 དམ . +d+m
@@ -124,11 +129,11 @@ SFX S 0 ནམོ . +n+mo
 SFX S 0 ནན . +n+n
 SFX S 0 ནནི . +n+ni
 SFX S 0 བཔ . +b+p
-SFX S 0 བཔོ . +b+po
 SFX S 0 བམ . +b+m
 SFX S 0 བམོ . +b+mo
 SFX S 0 བན . +b+n
 SFX S 0 བནི . +b+ni
+SFX S 0 བསཝ . +bs+b
 SFX S 0 བསཔ . +bs+p
 SFX S 0 བསཔོ . +bs+po
 SFX S 0 བསམ . +bs+m
@@ -137,10 +142,9 @@ SFX S 0 བསན . +bs+n
 SFX S 0 བསནི . +bs+ni
 SFX S 0 མཔ . +m+p
 SFX S 0 མཔོ . +m+po
-SFX S 0 མམ . +m+m
-SFX S 0 མམོ . +m+mo
 SFX S 0 མན . +m+n
 SFX S 0 མནི . +m+ni
+SFX S 0 མསཝ . +ms+b
 SFX S 0 མསཔ . +ms+p
 SFX S 0 མསཔོ . +ms+po
 SFX S 0 མསམ . +ms+m
@@ -148,7 +152,6 @@ SFX S 0 མསམོ . +ms+mo
 SFX S 0 མསན . +ms+n
 SFX S 0 མསནི . +ms+ni
 SFX S 0 རཝ . +r+b
-SFX S 0 རབོ . +r+bo
 SFX S 0 རཔ . +r+p
 SFX S 0 རཔོ . +r+po
 SFX S 0 རམ . +r+m
@@ -156,7 +159,6 @@ SFX S 0 རམོ . +r+mo
 SFX S 0 རན . +r+n
 SFX S 0 རནི . +r+ni
 SFX S 0 ལཝ . +l+b
-SFX S 0 ལབོ . +l+bo
 SFX S 0 ལཔ . +l+p
 SFX S 0 ལཔོ . +l+po
 SFX S 0 ལམ . +l+m
@@ -164,7 +166,6 @@ SFX S 0 ལམོ . +l+mo
 SFX S 0 ལན . +l+n
 SFX S 0 ལནི . +l+ni
 SFX S 0 སཝ . +s+b
-SFX S 0 སབོ . +s+bo
 SFX S 0 སཔ . +s+p
 SFX S 0 སཔོ . +s+po
 SFX S 0 སམ . +s+m

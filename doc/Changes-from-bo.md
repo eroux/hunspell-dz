@@ -6,8 +6,7 @@ We have been able to derive these rules from some discussions and inspection of 
 
  * Dzongkha can affix more particles than Classical Tibetan, and it can do it after suffixes (ex: རྒྱལཔོ།, king).
  * The particle བ gets affixed as ཝ (ex: འཐུཝ།).
- * The particles བ བོ can be affixed only after suffixes ང ད འ ལ ར ས or when there is no suffix. Note that Classical Tibetan would not allow བ to appear after suffix ས or ད, but it seems allowed in Dzongkha (ex: འཕྲོསཝ།, བསྣདཝ།).
- * All other particles (པ པོ མ མོ ན ནི) can appear after any suffix, even when there is a second suffix (ex: འཐོམསན།).
+ * For a table of what particle can go after which suffix, see page 29 of [གཞི་རིམ་རྫོད་ཁའི་བརྡ་གཞུང་།](http://www.dzongkha.gov.bt/publications/PDF-publications/Dzongkha_Dazhung_part1.pdf) part 1
  * There cannot be an affixed particles after these affixed particles, ex: རྒྱལཔོའི། is invalid.
  * Unlike other affixed particles, they do not replace the འ suffix (ex: མདའཔ།).
 
