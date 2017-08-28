@@ -6,9 +6,9 @@ FILES=dictionaries.xcu description.xml package-description.txt
 
 oxt: $(FILES) ../README.md ../CHANGELOG.md ../dz.dic ../dz.aff META-INF/manifest.xml
 	@echo "Making oxt file for LibreOffice..."
-	@mkdir -p dictionaries && cp ../dz.dic ../dz.aff dictionaries
+	@cp ../dz.dic ../dz.aff .
 	@cp ../README.md .
-	@zip -rq dzongkha-spellchecker.oxt dictionaries $(FILES) META-INF README.md CHANGELOG.md
+	@zip -rq dzongkha-spellchecker.oxt dz.dic dz.aff $(FILES) META-INF README.md CHANGELOG.md
 
 clean:
-	@rm -rf dictionaries README.md CHANGELOG.md dzongkha-spellchecker.oxt
+	@rm -f bo.dic bo.aff README.md CHANGELOG.md dzongkha-spellchecker.oxt
