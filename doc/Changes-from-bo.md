@@ -12,7 +12,7 @@ We have been able to derive these rules from some discussions and inspection of 
 
 ## Other fused forms
 
-Looking at a Dzongkha Dictionnary, one can find the fused forms ནོརབུ།, རྫིབུ། and རིལབུ།. We do not know if fusing བུ with the previous word is exceptional or common.
+Looking at a Dzongkha Dictionary, one can find the fused forms ནོརབུ།, རྫིབུ། and རིལབུ།. We do not know if fusing བུ with the previous word is exceptional or common.
 
 ## Other forms
 
